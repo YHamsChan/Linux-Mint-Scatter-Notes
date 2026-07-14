@@ -27,8 +27,9 @@ bind-address = 0.0.0.0`
 `sudo systemctl restart mysql`
 
 ### 5. Create a user to access it
-`sudo mysql
-CREATE USER 'Username'@'%' IDENTIFIED BY 'MyPassword';
+Run in terminal, `sudo mysql`
+<br>Then run<br>
+`CREATE USER 'Username'@'%' IDENTIFIED BY 'MyPassword';
 GRANT ALL PRIVILEGES ON *.* TO 'Username'@'%' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 EXIT;`
