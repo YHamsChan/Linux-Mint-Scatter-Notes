@@ -45,10 +45,10 @@ EXIT;`
 <br>**Don't close the terminal** unless you want to stop the PHP service.
 
 ### Start Database, run this code in terminal:
-`sudo systemctl start mysql`
+`sudo systemctl start mysql` or `sudo systemctl start mariadb`
 <br>There's no output but if it is working, it will ask for next input.
 ### Stop Database, run this code in terminal:
-`sudo systemctl stop mysql`
+`sudo systemctl stop mysql` or `sudo systemctl stop mariadb`
 <br>There's no output but if it is working, it will ask for next input.
 ### Ger your device IP, run this code in terminal:
 `hostname -I | awk '{print $1}'` or `hostname -I`
